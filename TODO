@@ -1,0 +1,9 @@
+TODO
+====
+
+Nic Wainwright
+
+===
+
+- Get rid of screens that say "press enter again to continue" for simplicity
+- Delete unnecesary code, likely functions in switch trees after gensc_end2

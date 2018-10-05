@@ -1,0 +1,298 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.5.4	//
+ANGK	asctech.h	27;"	d
+ANGLE	asctech.h	43;"	d
+ASCTECH	asctech.h	14;"	d
+BAUDRATE	sensor.h	51;"	d
+BEEP_FAILURE	global.h	79;"	d
+BEEP_FAILURE	global.h	82;"	d
+BEEP_SUCCESS	global.h	78;"	d
+BEEP_SUCCESS	global.h	81;"	d
+BINPATH	Makefile	/^BINPATH= ..\/bin$/;"	m
+CC	Makefile	/^CC= gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS= -g -Wall$/;"	m
+CONTINUOUS	asctech.h	36;"	d
+DBG_LEVEL	debug.h	27;"	d
+DEFAULTCLOCKVALUE	asctech.h	54;"	d
+DEFAULTCRYSTALFREQ	asctech.h	53;"	d
+DMAX	nrutil.h	12;"	d
+DMIN	nrutil.h	16;"	d
+DSQR	nrutil.h	9;"	d
+DTR	asctech.h	24;"	d
+FALSE	asctech.h	17;"	d
+FCOMPLEX	nr.h	/^typedef struct FCOMPLEX {float r,i;} fcomplex;$/;"	s
+FCONFIG_PARAM	main.c	22;"	d	file:
+FCONFIG_POS	main.c	24;"	d	file:
+FCONFIG_SCHED	main.c	23;"	d	file:
+FMAX	nrutil.h	20;"	d
+FMIN	nrutil.h	24;"	d
+FREE_ARG	nrutil.c	295;"	d	file:
+FREE_ARG	nrutil.c	7;"	d	file:
+FTW	asctech.h	25;"	d
+IMAX	nrutil.h	36;"	d
+IMIN	nrutil.h	40;"	d
+INCPATH	Makefile	/^INCPATH= -I\/usr\/X11R6\/include -I.$/;"	m
+KEY_ENT	global.h	71;"	d
+KEY_ESC	global.h	72;"	d
+KEY_SPACE	global.h	73;"	d
+LFLAGS	Makefile	/^LFLAGS= -lglut -lGLU -lGL -lXmu -lX11 -lXi -lm$/;"	m
+LIBPATH	Makefile	/^LIBPATH= -L\/usr\/lib -L\/usr\/X11R6\/lib$/;"	m
+LMAX	nrutil.h	28;"	d
+LMIN	nrutil.h	32;"	d
+LOGDIR	main.c	25;"	d	file:
+LOGFILE	main.c	26;"	d	file:
+MATRIX	asctech.h	44;"	d
+MAXBUF	sensor_test.c	30;"	d	file:
+MAXBUFSIZE	sensor.h	49;"	d
+MAXBUFSZ	main.c	28;"	d	file:
+MAXLINESZ	main.c	29;"	d	file:
+MAXPARAM	main.c	30;"	d	file:
+MAXSERIALERR	sensor.h	50;"	d
+MAXTARGET	global.h	74;"	d
+MAXTRIAL	global.h	75;"	d
+MODEMDEVICE	sensor.h	52;"	d
+NO_SOUND	global.h	70;"	d
+NRANSI	gaussj.c	3;"	d	file:
+NRANSI	gaussj.c	60;"	d	file:
+NR_END	nrutil.c	294;"	d	file:
+NR_END	nrutil.c	6;"	d	file:
+OBJS	Makefile	/^OBJS= sensor_test.o  command.o debug.o nrutil.o gaussj.o$/;"	m
+OFF	asctech.h	19;"	d
+ON	asctech.h	18;"	d
+POINT	asctech.h	35;"	d
+POS	asctech.h	42;"	d
+POSANGLE	asctech.h	46;"	d
+POSK144	asctech.h	30;"	d
+POSK36	asctech.h	28;"	d
+POSK72	asctech.h	29;"	d
+POSMATRIX	asctech.h	47;"	d
+POSQUATER	asctech.h	48;"	d
+QUATER	asctech.h	45;"	d
+SC_CALIB_C	global.h	/^	   SC_CALIB_C,$/;"	e
+SC_CALIB_INFO	global.h	/^	   SC_CALIB_INFO,$/;"	e
+SC_CALIB_LB	global.h	/^	   SC_CALIB_LB,$/;"	e
+SC_CALIB_LU	global.h	/^	   SC_CALIB_LU,$/;"	e
+SC_CALIB_RB	global.h	/^	   SC_CALIB_RB,$/;"	e
+SC_CALIB_RU	global.h	/^	   SC_CALIB_RU,$/;"	e
+SC_END	global.h	/^	   SC_END$/;"	e
+SC_PRESET	global.h	/^	   SC_PRESET,$/;"	e
+SC_PRESET_INFO	global.h	/^	   SC_PRESET_INFO,$/;"	e
+SC_RMS_B	global.h	/^	   SC_RMS_B,$/;"	e
+SC_RMS_D	global.h	/^	   SC_RMS_D,$/;"	e
+SC_RMS_F	global.h	/^	   SC_RMS_F,$/;"	e
+SC_RMS_INFO	global.h	/^	   SC_RMS_INFO,$/;"	e
+SC_RMS_L	global.h	/^	   SC_RMS_L,$/;"	e
+SC_RMS_R	global.h	/^	   SC_RMS_R,$/;"	e
+SC_RMS_RESULT	global.h	/^	   SC_RMS_RESULT,$/;"	e
+SC_RMS_U	global.h	/^	   SC_RMS_U,$/;"	e
+SC_TEST_GO	global.h	/^	   SC_TEST_GO,$/;"	e
+SC_TEST_INFO	global.h	/^	   SC_TEST_INFO,$/;"	e
+SC_TEST_READY1	global.h	/^	   SC_TEST_READY1,$/;"	e
+SC_TEST_READY2	global.h	/^	   SC_TEST_READY2,$/;"	e
+SIGN	nrutil.h	44;"	d
+SQR	nrutil.h	6;"	d
+STREAM	asctech.h	37;"	d
+SWAP	gaussj.c	59;"	d	file:
+SWAP	gaussj.c	5;"	d	file:
+TARGETS	Makefile	/^TARGETS= young$/;"	m
+TRUE	asctech.h	16;"	d
+WTF	asctech.h	26;"	d
+_ARITHCODE_DECLARE_T_	nr.h	13;"	d
+_FCOMPLEX_DECLARE_T_	nr.h	6;"	d
+_HUFFCODE_DECLARE_T_	nr.h	20;"	d
+_NR_H_	nr.h	2;"	d
+_NR_UTILS_H_	nrutil.h	2;"	d
+_POSIX_SOURCE	sensor.h	53;"	d
+__COMMAND_H__	command.h	37;"	d
+__DEBUG_H__	debug.h	25;"	d
+__GLOBAL_H__	global.h	66;"	d
+__SENSOR_H__	sensor.h	43;"	d
+__func__	pseudo.c	5;"	d	file:
+accX	sensor.h	/^float accX, accY, accZ, velX, velY, velZ, angP, angR, angY;$/;"	v
+accY	sensor.h	/^float accX, accY, accZ, velX, velY, velZ, angP, angR, angY;$/;"	v
+accZ	sensor.h	/^float accX, accY, accZ, velX, velY, velZ, angP, angR, angY;$/;"	v
+angP	sensor.h	/^float accX, accY, accZ, velX, velY, velZ, angP, angR, angY;$/;"	v
+angR	sensor.h	/^float accX, accY, accZ, velX, velY, velZ, angP, angR, angY;$/;"	v
+angY	sensor.h	/^float accX, accY, accZ, velX, velY, velZ, angP, angR, angY;$/;"	v
+arithcode	nr.h	/^} arithcode;$/;"	t
+bird_autoconfig	command.c	/^int bird_autoconfig(int numberofsensors)$/;"	f
+bird_hemisphere	command.c	/^int bird_hemisphere(int mode)$/;"	f
+calib_screen	main.c	/^void calib_screen()$/;"	f
+check_hand_choice	main.c	/^int check_hand_choice()$/;"	f
+check_sensor_pos	main.c	/^int check_sensor_pos()$/;"	f
+cnt	sensor.c	/^int cnt = 0;$/;"	v
+cnt	sensor_test.c	/^int cnt = 0;$/;"	v
+cnt_calib	main.c	/^int cnt_trial = 1, cnt_target = 1, cnt_calib = 1, cnt_rms = 1;$/;"	v
+cnt_rms	main.c	/^int cnt_trial = 1, cnt_target = 1, cnt_calib = 1, cnt_rms = 1;$/;"	v
+cnt_target	main.c	/^int cnt_trial = 1, cnt_target = 1, cnt_calib = 1, cnt_rms = 1;$/;"	v
+cnt_trial	main.c	/^int cnt_trial = 1, cnt_target = 1, cnt_calib = 1, cnt_rms = 1;$/;"	v
+config_serial	sensor.c	/^int config_serial()$/;"	f
+config_serial	sensor_test.c	/^int config_serial()$/;"	f
+convert2Float	sensor.c	/^convert2Float(unsigned char *buff)$/;"	f
+convert_matrix	nrutil.c	/^float **convert_matrix(a,nrl,nrh,ncl,nch)$/;"	f
+convert_matrix	nrutil.c	/^float **convert_matrix(float *a, long nrl, long nrh, long ncl, long nch)$/;"	f
+cvector	nrutil.c	/^unsigned char *cvector(long nl, long nh)$/;"	f
+cvector	nrutil.c	/^unsigned char *cvector(nl,nh)$/;"	f
+data	pseudo.c	/^	int data;$/;"	m	struct:list	file:
+decodeAccVelAng	sensor.c	/^decodeAccVelAng(unsigned char *buff)$/;"	f
+display	main.c	/^void display()$/;"	f
+display_init	main.c	/^void display_init()$/;"	f
+display_target	main.c	/^void display_target(ftarget t)$/;"	f
+dmatrix	nrutil.c	/^double **dmatrix(long nrl, long nrh, long ncl, long nch)$/;"	f
+dmatrix	nrutil.c	/^double **dmatrix(nrl,nrh,ncl,nch)$/;"	f
+dprintf	debug.c	/^void dprintf(int l, const char *a, ...)$/;"	f
+dprintf_cr	debug.c	/^void dprintf_cr(int l, const char *a, ...)$/;"	f
+dvector	nrutil.c	/^double *dvector(long nl, long nh)$/;"	f
+dvector	nrutil.c	/^double *dvector(nl,nh)$/;"	f
+f3tensor	nrutil.c	/^float ***f3tensor(long nrl, long nrh, long ncl, long nch, long ndl, long ndh)$/;"	f
+f3tensor	nrutil.c	/^float ***f3tensor(nrl,nrh,ncl,nch,ndl,ndh)$/;"	f
+fcomplex	nr.h	/^typedef struct FCOMPLEX {float r,i;} fcomplex;$/;"	t
+fmatrix	global.h	/^typedef float fpos[3], ftarget[4], **fmatrix;$/;"	t
+fpos	global.h	/^typedef float fpos[3], ftarget[4], **fmatrix;$/;"	t
+free_convert_matrix	nrutil.c	/^void free_convert_matrix(b,nrl,nrh,ncl,nch)$/;"	f
+free_convert_matrix	nrutil.c	/^void free_convert_matrix(float **b, long nrl, long nrh, long ncl, long nch)$/;"	f
+free_cvector	nrutil.c	/^void free_cvector(unsigned char *v, long nl, long nh)$/;"	f
+free_cvector	nrutil.c	/^void free_cvector(v,nl,nh)$/;"	f
+free_dmatrix	nrutil.c	/^void free_dmatrix(double **m, long nrl, long nrh, long ncl, long nch)$/;"	f
+free_dmatrix	nrutil.c	/^void free_dmatrix(m,nrl,nrh,ncl,nch)$/;"	f
+free_dvector	nrutil.c	/^void free_dvector(double *v, long nl, long nh)$/;"	f
+free_dvector	nrutil.c	/^void free_dvector(v,nl,nh)$/;"	f
+free_f3tensor	nrutil.c	/^void free_f3tensor(float ***t, long nrl, long nrh, long ncl, long nch,$/;"	f
+free_f3tensor	nrutil.c	/^void free_f3tensor(t,nrl,nrh,ncl,nch,ndl,ndh)$/;"	f
+free_imatrix	nrutil.c	/^void free_imatrix(int **m, long nrl, long nrh, long ncl, long nch)$/;"	f
+free_imatrix	nrutil.c	/^void free_imatrix(m,nrl,nrh,ncl,nch)$/;"	f
+free_ivector	nrutil.c	/^void free_ivector(int *v, long nl, long nh)$/;"	f
+free_ivector	nrutil.c	/^void free_ivector(v,nl,nh)$/;"	f
+free_lvector	nrutil.c	/^void free_lvector(unsigned long *v, long nl, long nh)$/;"	f
+free_lvector	nrutil.c	/^void free_lvector(v,nl,nh)$/;"	f
+free_matrix	nrutil.c	/^void free_matrix(float **m, long nrl, long nrh, long ncl, long nch)$/;"	f
+free_matrix	nrutil.c	/^void free_matrix(m,nrl,nrh,ncl,nch)$/;"	f
+free_submatrix	nrutil.c	/^void free_submatrix(b,nrl,nrh,ncl,nch)$/;"	f
+free_submatrix	nrutil.c	/^void free_submatrix(float **b, long nrl, long nrh, long ncl, long nch)$/;"	f
+free_vector	nrutil.c	/^void free_vector(float *v, long nl, long nh)$/;"	f
+free_vector	nrutil.c	/^void free_vector(v,nl,nh)$/;"	f
+ftarget	global.h	/^typedef float fpos[3], ftarget[4], **fmatrix;$/;"	t
+g_calibs	main.c	/^fmatrix g_calibs, g_calibt, g_matrix;$/;"	v
+g_calibt	main.c	/^fmatrix g_calibs, g_calibt, g_matrix;$/;"	v
+g_fp	main.c	/^FILE *g_fp = NULL, *g_logfp = NULL;$/;"	v
+g_logfp	main.c	/^FILE *g_fp = NULL, *g_logfp = NULL;$/;"	v
+g_matrix	main.c	/^fmatrix g_calibs, g_calibt, g_matrix;$/;"	v
+g_nos	sensor.c	/^int g_nos = 2;						\/* number of sensors *\/$/;"	v
+g_nos	sensor_test.c	/^int g_nos = 2;						\/* number of sensors *\/$/;"	v
+g_pos_data_s	main.c	/^fpos g_pos_data_s;		\/\/ the position of the first sensor$/;"	v
+g_pos_data_s2	main.c	/^fpos g_pos_data_s2;		\/\/ the position of the first sensor$/;"	v
+g_pos_data_t	main.c	/^fpos g_pos_data_t;		\/\/ the position of a target$/;"	v
+g_pos_test	main.c	/^fpos g_pos_test[MAXTRIAL];$/;"	v
+g_ratio	main.c	/^float g_ratio=1.0;$/;"	v
+g_real_h	main.c	/^float g_real_h = 19.05; \/\/ 7.5$/;"	v
+g_real_w	main.c	/^float g_real_w = 25.15; \/\/ 9.9$/;"	v
+g_real_z	main.c	/^float g_real_z = 2.138; \/\/1.0; \/\/0.964; \/\/ 1.424;	\/\/1.334;$/;"	v
+g_result_data	main.c	/^struct result_data g_result_data[MAXTRIAL];$/;"	v
+g_rms	main.c	/^fpos g_s, g_s2, g_rms[7], g_s_init, g_s2_init;$/;"	v
+g_s	main.c	/^fpos g_s, g_s2, g_rms[7], g_s_init, g_s2_init;$/;"	v
+g_s2	main.c	/^fpos g_s, g_s2, g_rms[7], g_s_init, g_s2_init;$/;"	v
+g_s2_init	main.c	/^fpos g_s, g_s2, g_rms[7], g_s_init, g_s2_init;$/;"	v
+g_s_init	main.c	/^fpos g_s, g_s2, g_rms[7], g_s_init, g_s2_init;$/;"	v
+g_scene	main.c	/^int w = 640, h = 640, g_scene = SC_PRESET_INFO;$/;"	v
+g_sched	main.c	/^int g_sched[MAXTRIAL];$/;"	v
+gaussj	gaussj.c	/^void gaussj(float **a, int n, float **b, int m)$/;"	f
+getPosPoint	command.c	/^int getPosPoint()$/;"	f
+getPosStream	command.c	/^int getPosStream()$/;"	f
+getSlavePosPoint	command.c	/^int getSlavePosPoint()$/;"	f
+glprint	main.c	/^void glprint(float x, float y, char *string)$/;"	f
+glprintbig	main.c	/^void glprintbig(float x, float y, char *string)$/;"	f
+glprintbigbig	main.c	/^void glprintbigbig(float x, float y, char *string)$/;"	f
+h	main.c	/^int w = 640, h = 640, g_scene = SC_PRESET_INFO;$/;"	v
+huffcode	nr.h	/^} huffcode;$/;"	t
+i	nr.h	/^typedef struct FCOMPLEX {float r,i;} fcomplex;$/;"	m	struct:FCOMPLEX
+icod	nr.h	/^	unsigned long *icod,*ncod,*left,*right,nch,nodemax;$/;"	m
+idledisplay	main.c	/^void idledisplay()$/;"	f
+ilob	nr.h	/^	unsigned long *ilob,*iupb,*ncumfq,jdif,nc,minint,nch,ncum,nrad;$/;"	m
+imatrix	nrutil.c	/^int **imatrix(long nrl, long nrh, long ncl, long nch)$/;"	f
+imatrix	nrutil.c	/^int **imatrix(nrl,nrh,ncl,nch)$/;"	f
+iupb	nr.h	/^	unsigned long *ilob,*iupb,*ncumfq,jdif,nc,minint,nch,ncum,nrad;$/;"	m
+ivector	nrutil.c	/^int *ivector(long nl, long nh)$/;"	f
+ivector	nrutil.c	/^int *ivector(nl,nh)$/;"	f
+jdif	nr.h	/^	unsigned long *ilob,*iupb,*ncumfq,jdif,nc,minint,nch,ncum,nrad;$/;"	m
+keyboard	main.c	/^void keyboard(unsigned char key, int x, int y)$/;"	f
+left	nr.h	/^	unsigned long *icod,*ncod,*left,*right,nch,nodemax;$/;"	m
+list	pseudo.c	/^struct list $/;"	s	file:
+list_add	pseudo.c	/^void list_add(struct list *head, struct list *l, int d)$/;"	f
+list_del	pseudo.c	/^void list_del(struct list *l)$/;"	f
+list_del_pos	pseudo.c	/^void list_del_pos(struct list *head, int pos)$/;"	f
+list_free	pseudo.c	/^void list_free(struct list *head)$/;"	f
+list_get_pos	pseudo.c	/^int list_get_pos(struct list *head, int pos)$/;"	f
+list_init	pseudo.c	/^void list_init(struct list *head)$/;"	f
+loadparam	main.c	/^int loadparam(void)$/;"	f
+lvector	nrutil.c	/^unsigned long *lvector(long nl, long nh)$/;"	f
+lvector	nrutil.c	/^unsigned long *lvector(nl,nh)$/;"	f
+m11	sensor.h	/^float m11,m12,m13,m21,m22,m23,m31,m32,m33;$/;"	v
+m12	sensor.h	/^float m11,m12,m13,m21,m22,m23,m31,m32,m33;$/;"	v
+m13	sensor.h	/^float m11,m12,m13,m21,m22,m23,m31,m32,m33;$/;"	v
+m21	sensor.h	/^float m11,m12,m13,m21,m22,m23,m31,m32,m33;$/;"	v
+m22	sensor.h	/^float m11,m12,m13,m21,m22,m23,m31,m32,m33;$/;"	v
+m23	sensor.h	/^float m11,m12,m13,m21,m22,m23,m31,m32,m33;$/;"	v
+m31	sensor.h	/^float m11,m12,m13,m21,m22,m23,m31,m32,m33;$/;"	v
+m32	sensor.h	/^float m11,m12,m13,m21,m22,m23,m31,m32,m33;$/;"	v
+m33	sensor.h	/^float m11,m12,m13,m21,m22,m23,m31,m32,m33;$/;"	v
+main	main.c	/^int main(int argc, char **argv)$/;"	f
+main	pseudo.c	/^int main()$/;"	f
+main	sensor_test.c	/^int main(int argc, char **argv)$/;"	f
+matrix	nrutil.c	/^float **matrix(long nrl, long nrh, long ncl, long nch)$/;"	f
+matrix	nrutil.c	/^float **matrix(nrl,nrh,ncl,nch)$/;"	f
+maxtarget	main.c	/^int maxtrial = MAXTRIAL, maxtarget = MAXTARGET;$/;"	v
+maxtrial	main.c	/^int maxtrial = MAXTRIAL, maxtarget = MAXTARGET;$/;"	v
+minint	nr.h	/^	unsigned long *ilob,*iupb,*ncumfq,jdif,nc,minint,nch,ncum,nrad;$/;"	m
+nc	nr.h	/^	unsigned long *ilob,*iupb,*ncumfq,jdif,nc,minint,nch,ncum,nrad;$/;"	m
+nch	nr.h	/^	unsigned long *icod,*ncod,*left,*right,nch,nodemax;$/;"	m
+nch	nr.h	/^	unsigned long *ilob,*iupb,*ncumfq,jdif,nc,minint,nch,ncum,nrad;$/;"	m
+ncod	nr.h	/^	unsigned long *icod,*ncod,*left,*right,nch,nodemax;$/;"	m
+ncum	nr.h	/^	unsigned long *ilob,*iupb,*ncumfq,jdif,nc,minint,nch,ncum,nrad;$/;"	m
+ncumfq	nr.h	/^	unsigned long *ilob,*iupb,*ncumfq,jdif,nc,minint,nch,ncum,nrad;$/;"	m
+next	pseudo.c	/^	struct list *next;$/;"	m	struct:list	file:
+nodemax	nr.h	/^	unsigned long *icod,*ncod,*left,*right,nch,nodemax;$/;"	m
+nrad	nr.h	/^	unsigned long *ilob,*iupb,*ncumfq,jdif,nc,minint,nch,ncum,nrad;$/;"	m
+nrerror	nrutil.c	/^void nrerror(char error_text[])$/;"	f
+nrerror	nrutil.c	/^void nrerror(error_text)$/;"	f
+posk	sensor.h	/^float posk;$/;"	v
+prev	pseudo.c	/^	struct list *prev;$/;"	m	struct:list	file:
+printposition	command.c	/^int printposition(short *birddata, short buttonmode, unsigned char displayon,$/;"	f
+r	nr.h	/^typedef struct FCOMPLEX {float r,i;} fcomplex;$/;"	m	struct:FCOMPLEX
+readBlock	sensor.c	/^readBlock(unsigned char *buff, int readSize)$/;"	f
+resetPerspectiveProjection	main.c	/^void resetPerspectiveProjection()$/;"	f
+reshape	main.c	/^void reshape(int w1,int h1)$/;"	f
+result_data	global.h	/^struct result_data$/;"	s
+right	nr.h	/^	unsigned long *icod,*ncod,*left,*right,nch,nodemax;$/;"	m
+s	global.h	/^	fpos s;					\/* the position of the 1st sensor *\/$/;"	m	struct:result_data
+s2	global.h	/^	fpos s2;				\/* the position of the 2nd sensor *\/$/;"	m	struct:result_data
+send_command	command.c	/^int send_command( unsigned char *cmd, short cmdsize )$/;"	f
+sensor_finalize	sensor.c	/^void sensor_finalize()$/;"	f
+sensor_finalize	sensor_test.c	/^void sensor_finalize()$/;"	f
+sensor_get_pos	sensor.c	/^int sensor_get_pos()$/;"	f
+sensor_init	sensor.c	/^void sensor_init(int numberofsensors)$/;"	f
+sensor_init	sensor_test.c	/^void sensor_init(int numberofsensors)$/;"	f
+serfd	sensor.h	/^int serfd;$/;"	v
+setOrthographicProjection	main.c	/^void setOrthographicProjection()$/;"	f
+setPosPoint	command.c	/^int setPosPoint()$/;"	f
+streamAccVelAng	sensor.c	/^streamAccVelAng()$/;"	f
+submatrix	nrutil.c	/^float **submatrix(a,oldrl,oldrh,oldcl,oldch,newrl,newcl)$/;"	f
+submatrix	nrutil.c	/^float **submatrix(float **a, long oldrl, long oldrh, long oldcl, long oldch,$/;"	f
+t	global.h	/^	fpos t;					\/* the position of a target *\/$/;"	m	struct:result_data
+t_calib	main.c	/^ftarget t_calib = { 0.03, 0.0, 1.0, 0.0 };$/;"	v
+t_end	main.c	/^struct timeval t_end, t_start;$/;"	v
+t_ready	main.c	/^ftarget t_ready = { 0.07, 1.0, 1.0, 1.0 };$/;"	v
+t_start	main.c	/^struct timeval t_end, t_start;$/;"	v
+t_test	main.c	/^ftarget t_test  = { 0.07, 1.0, 1.0, 1.0 };$/;"	v
+t_wait	sensor.c	/^int t_wait = 2500;$/;"	v
+t_wait	sensor_test.c	/^int t_wait = 2500;$/;"	v
+time	global.h	/^	long time;				\/* time in miliseconds *\/$/;"	m	struct:result_data
+vector	nrutil.c	/^float *vector(long nl, long nh)$/;"	f
+vector	nrutil.c	/^float *vector(nl,nh)$/;"	f
+velX	sensor.h	/^float accX, accY, accZ, velX, velY, velZ, angP, angR, angY;$/;"	v
+velY	sensor.h	/^float accX, accY, accZ, velX, velY, velZ, angP, angR, angY;$/;"	v
+velZ	sensor.h	/^float accX, accY, accZ, velX, velY, velZ, angP, angR, angY;$/;"	v
+w	main.c	/^int w = 640, h = 640, g_scene = SC_PRESET_INFO;$/;"	v

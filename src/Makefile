@@ -1,0 +1,46 @@
+CC= gcc
+DEF=-g -DLINUX -D__LINUX__ -DUNIX
+LIBS=./udp/libunixudp.a
+CFLAGS= -g -Wall
+LFLAGS= -lglut -lGLU -lGL -lXmu -lX11 -lXi -lm
+
+INCPATH= -I/usr/X11R6/include -I.
+LIBPATH= -L/usr/lib -L/usr/X11R6/lib
+BINPATH= ../bin
+
+TARGETS= bart bart_gui bart_core
+SEND_OBJS= bart_send.c
+
+GUI_OBJS= main.o sensor.o command.o debug.o nrutil.o gaussj.o
+
+CORE_OBJS= bart_core.o sensor.o command.o debug.o nrutil.o gaussj.o
+
+all: $(TARGETS)
+
+#compile first
+bart_send.o:bart_send.c
+	$(CC) $(DEF) -c $< 
+bart_gui.o:main.c
+	$(CC) $(DEF) -c $<
+bart_core.o:bart_core.c
+	$(CC) $(DEF) -c $<
+
+	
+%.o: %.c
+	$(CC) $(CFLAGS) $(INCPATH) $(DEF) -c -o $@  $^
+
+bart: $(SEND_OBJS)
+	$(CC) $(DEF) -o $@ $^ $(LFLAGS) $(LIBPATH) $(LIBS)
+	-mv $@ $(BINPATH)
+bart_gui: $(GUI_OBJS)
+	$(CC) $(DEF) -o $@ $^ $(LFLAGS) $(LIBPATH) $(LIBS)
+	-mv $@ $(BINPATH)
+bart_core: $(CORE_OBJS)
+	$(CC) $(DEF) -o $@ $^ $(LFLAGS) $(LIBPATH) $(LIBS)
+	-mv $@ $(BINPATH)
+
+clean:
+	-rm -f *.o $(BINPATH)/$(TARGETS) $(BINPATH)/*.dat
+
+.PHONY: all clean
+

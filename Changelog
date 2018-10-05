@@ -1,0 +1,20 @@
+[A]: Add, [C]: Change, [D]: Delete, [F]: Fix
+
+Author:	Jeong-Yoon Lee <jeongyol@usc.edu>
+Date:	Fri Aug 3 11:32:00 2007 -0800
+
+	[F] Debug incorrect target positions:
+
+	The bug is misusing the strtok() by not putting NULL as the first
+	parameter.
+
+Author:	Jeong-Yoon Lee <jeongyol@usc.edu>
+Date:	Tue Dec 7 23:00:00 2005 -0800
+
+	[A] Add additional steps: screen preset, accuracy test 
+
+	To calculate the intrinsic RMS error of sensors, two more steps are
+	added. During the screen preset, screen will be fixed and during the
+	accuracy test, the RMS error will be checked by comparing sensored
+	values to values measured by a ruler.
+
